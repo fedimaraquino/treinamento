@@ -63,11 +63,11 @@
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
-                    <li class="active">
+                    <li>
                         <a href="<?php echo base_url('index.php/Alunos/listarAlunos')?>"><i class="fa fa-fw fa-user"></i> Alunos</a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url('index.php/Cursos') ?>"><i class="fa fa-fw fa-file"></i> Cursos</a>
+                        <a href="<?php echo base_url('index.php/Cursos/listarCursos') ?>"><i class="fa fa-fw fa-file"></i> Cursos</a>
                     </li>
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-table"></i> Matriculas <i class="fa fa-fw fa-caret-down"></i></a>
