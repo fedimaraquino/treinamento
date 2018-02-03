@@ -73,10 +73,10 @@
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-table"></i> Matriculas <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
-                                <a href="#">Realizar Matricula</a>
+                                <a href="<?php echo base_url('index.php/Matriculas/addMatricula') ?>">Realizar Matricula</a>
                             </li>
                             <li>
-                                <a href="#">Listar Matriculas</a>
+                                <a  href="<?php echo base_url('index.php/Matriculas/listarMatriculas') ?>">Listar Matriculas</a>
                             </li>
                             
                         </ul>

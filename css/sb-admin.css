@@ -6,6 +6,8 @@
 
 /* Global Styles */
 
+.no-display {display: none !important;}
+
 body {
     margin-top: 100px;
     background-color: #222;
